@@ -1,0 +1,87 @@
+.slider-home{
+    width: 100vw;
+    max-width: 1250px;
+    height: 550px;
+    margin: 50px auto ;
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.slider-home ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 30s infinite alternate ease-in-out;
+}
+.slider-home li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-home img{
+    width: 100vw;
+    max-width: 1250px;
+    height: 550px;
+    margin: 15px auto ;
+    border-radius: 20px;
+    filter: brightness(70%) saturate(70%);
+}
+.slider-info{
+    position: absolute;
+    padding: 0 250px;
+    top: 140px;
+    color: #fff;
+}
+.slider-info h1{
+    font-size: 3em;
+    text-align: center;
+}
+.slider-info p{
+    line-height: 1.8;
+    font-size: 2em;
+    max-width: 1000px;
+}
+.slider-info button{
+    width: 150px;
+    height: 50px;
+    background-color: #6EB6FF;
+    border-radius: 10px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    outline: none;
+}
+@keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+}
+.buttons{
+    position: absolute; 
+    top: 30%;
+    left: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.buttons #left{
+    padding: 50px 50px;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+.buttons #right{
+    padding: 50px 50px;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 300; 
+    cursor: pointer;
+}
