@@ -6,6 +6,15 @@
 @import url('css/social-media.css');
 @import url('css/targets-service.css');
 @import url('css/master-service.css');
+@import url('css/request-form.css');
+@import url('css/news.css');
+@import url('css/footer.css');
+@import url('css/initial-title.css');
+@import url('css/about-title.css');
+@import url('css/history-about.css');
+@import url('css/blog-news.css');
+@import url('css/i-cleaning.css');
+@import url('css/get-in.css');
 
 *{
     margin: 0;

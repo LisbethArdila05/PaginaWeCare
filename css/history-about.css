@@ -1,0 +1,42 @@
+.History{
+    width: 91vw;
+    height: 85vh;
+    margin: 70px auto ;
+}
+.History h2{
+    text-align: center;
+}
+.History p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 30px;
+}
+.mission{
+    width: 35vw;
+    height: auto;
+    float: left;
+    margin: 0 30px;
+}
+.mission h3{
+    text-align: center;
+}
+.mission img{
+    height: 20vh;
+    width: 10vw;
+    float: left;
+
+}
+.vission{
+   width: 40vw;
+   height: auto;
+   float: right;
+}
+.vission h3{
+    text-align: center;
+}
+.vission img{
+    height: 20vh;
+    width: 10vw;
+    float: left;
+}

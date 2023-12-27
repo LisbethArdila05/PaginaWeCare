@@ -1,0 +1,146 @@
+.blog-news{
+    height: 150vh;
+    width: 91vw;
+    margin: 70px auto ;
+}
+.blog-firs{
+    width: 100%;
+    height: 70vh;
+}
+.new-one{
+    width: 45vw;
+    height: 70vh;
+    float: left;
+    cursor: pointer;
+}
+.new-one img{
+    display: flex;
+    width: 45vw;
+    height: 70vh;
+}
+.tike-workplace{
+    position: relative;
+    background-color: #D9D9D9;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 6px;
+    bottom: 420px;
+    left: 450px;
+}
+.tike-workplace i{
+    float: left;
+    font-size: 1.3em;
+}
+.new-one h2{
+    position: relative;
+    bottom: 180px;
+    left: 30px;
+}
+.tiket-person{
+    position: relative;
+    background-color: #D9D9D9;
+    width: 6vw;
+    height: 6vh;
+    border-radius: 6px;
+    bottom: 485px;
+    left: 50px;
+}
+.tiket-person i{
+    float: left;
+    font-size: 1.3em;
+}
+.new-one p{
+    position: relative;
+    bottom: 210px;
+    margin: 0 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.new-two{
+    width: 45vw;
+    height: 70vh;
+    float: right;
+}
+.cleaning-news{
+    width: 96%;
+    height: 22vh;
+    margin:10px;
+    cursor: pointer;
+}
+.cleaning-news img{
+    width: 13vw;
+    height: 18vh;
+    margin: 10px;
+    border-radius: 5px;
+    float: left;
+}
+.tikets-cleanig{
+    width: 45vh;
+    height: 5vh;
+    margin: 10px 250px;
+}
+.t-cli{
+    position: relative;
+    background-color: #D9D9D9;
+    width: 12vw;
+    height: 4vh;
+    border-radius: 6px; 
+    float: left;
+    margin-right: 20px;
+}
+.t-cli i{
+    float: left;
+    font-size: 1.3em;
+}
+.t-person{
+    position: relative;
+    background-color: #D9D9D9;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 6px;
+    float: right;
+}
+.t-person i{
+    float: left;
+    font-size: 1.3em;
+}
+.cleaning-news h3{
+    font-size: .9em;
+    font-weight: 600;
+    text-align: center;
+}
+.news-blogs-two{
+    height: 70vh;
+    width:55vh;
+    margin: 30px;
+    float: left; 
+}
+.news-blogs-two img{
+    border-radius: 20px;
+    width: 26vw;
+    height: 30vh;
+}
+.news-blogs-two h2{
+    margin-top: 30px;
+    font-size: .9em;
+    text-align: center;
+}
+.news-blogs-two p{
+    margin: 20px;
+}
+.news-blogs-two button{
+    margin: 10px 5px;
+    width: 25vw;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

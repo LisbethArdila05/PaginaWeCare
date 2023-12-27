@@ -1,0 +1,20 @@
+.initial-title{
+    width: 91vw;
+    height: 65vh;
+    margin: 70px auto ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.title-img img{
+    display: flex;
+    width: 91vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+.title-img h1{
+    position: relative;
+    bottom: 250px;
+    left: 100px;
+    font-size: 2em;
+    font-weight: 700;
+}
