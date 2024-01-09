@@ -1,0 +1,48 @@
+.description-benefits{
+    width: 85%;
+    height: 75vh;
+    margin-left: 7.5%;
+    margin-top: 4.5%;
+}
+.description-benefits .benefic-left{
+    height: 100%;
+    width: 48%;
+    float: left;
+}
+.benefic-left .benefic-left-properties{
+    margin-top: 6%;
+}
+.benefic-left-properties h3{
+    width: 80%;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.benefic-left-properties p{
+    text-align:justify;
+    margin-left: 5%;
+    width: 90%;
+    line-height: 3vh;
+}
+.description-benefits .benefic-right{
+    height: 100%;
+    width: 48%;
+    float: right;
+}
+.benefic-right .benefic-right-properties{
+    margin-top: 6%;
+}
+.benefic-right-properties h3{
+    width: 80%;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.benefic-right-properties p{
+    text-align:justify;
+    margin-left: 5%;
+    width: 90%;
+    line-height: 3vh;
+}

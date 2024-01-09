@@ -1,0 +1,10 @@
+.covid-service{
+    width: 85%;
+    height: 35vh;
+    margin-left: 7.5%;
+}
+.covid-service p{
+    line-height: 2em;
+    width: 95%;
+    margin-left: 2%;
+}

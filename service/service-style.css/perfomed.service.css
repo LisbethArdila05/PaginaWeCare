@@ -1,0 +1,31 @@
+.perfomed-daily{
+    width: 85%;
+    height: 60vh;
+    margin-left: 7.5%;
+    margin-top: 5%;
+}
+.perfomed-daily h3{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+.perfomed-firs{
+    height: 85%;
+    width: 50%;
+    float: left;
+}
+.perfomed-firs li{
+    margin: 2.5% 15%;
+    width: 70%;
+    font-size: 1.1em;
+}
+.perfomed-second{
+    height: 85%;
+    width: 50%;
+    float: right;
+}
+.perfomed-second li{
+    margin: 2.5% 10%;
+    width: 70%;
+    font-size: 1.1em;
+}

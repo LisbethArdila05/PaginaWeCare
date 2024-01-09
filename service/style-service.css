@@ -4,6 +4,13 @@
 @import url('/service/service-style.css/header-service.css');
 @import url('/service/service-style.css/initial-service.css');
 @import url('service-style.css/info-service.css');
+@import url('service-style.css/benefics-service.css');
+@import url('service-style.css/descriptionB.service.css');
+@import url('service-style.css/reques.service.css');
+@import url('service-style.css/footer.service.css');
+@import url('service-style.css/parrafoC.service.css');
+@import url('service-style.css/perfomed.service.css');
+@import url('service-style.css/covid-service.css');
 
 *{
     margin: 0;

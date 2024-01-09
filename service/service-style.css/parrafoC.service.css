@@ -1,0 +1,13 @@
+.parrafo-cleaning{
+    width: 85%;
+    height: 20vh;
+    margin-left: 7.5%;
+}
+.parrafo-cleaning p{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.parrafo-cleaning h3{
+    top: 2%;
+    font-size: 1.3em;
+}
