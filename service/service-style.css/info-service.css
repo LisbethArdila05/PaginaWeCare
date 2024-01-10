@@ -18,3 +18,19 @@
     margin-right: 70px;
     margin-top: 2%;
 }
+.parrafo-sig{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 2%;
+}
+.parrafo-sig .p-1{
+    margin-left: 2.5%;
+    line-height: 2em;
+    width: 92%;
+}
+ .parrafo-2{
+    text-align: center;
+    width: 92%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
