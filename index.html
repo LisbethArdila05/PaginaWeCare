@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>WE CARE</title>
 </head>
 <body>
     <header>
         <a href="" class="logo">We Care</a> 
-        <nav class="navigation">
+        <nav id="navigation">
             <a href="/index.html">Home</a>
             <a href="/about-us.html">About Us</a>
-            <div class="service-drop">
-                <label for="">Service <i class="bi bi-caret-down-fill"></i></label>
-                    <div class="service-a">
-                        <a href="/service/hospital-service.html">Hospital cleaning</a>
+            <div class="dropdown">
+                <button class="dropbtn">Service</button>
+                <div class="dropdown-content">
+                    <a href="/service/hospital-service.html">Hospital cleaning</a>
                         <a href="/service/cleaning-service.html">Cleaning service</a>
                         <a href="/service/covid-service.html">Covid-19</a>
                         <a href="/service/office-service.html">Office building</a>
                         <a href="/service/corporate-service.html">Corporate janitorial</a>
                         <a href="/service/educational-service.html">Educational cleaning</a>
                         <a href="/service/HEALTHCARE-service.html">Healthcare environmenetal</a>
-                    </div>
+                </div>
             </div>
             <a href="/blog.html">Blog</a>
             <a href="/contact.html">Contact</a>
@@ -30,35 +31,35 @@
         </nav>
     </header>
     <section class="slider-home" id="slider">
-        <ul>
-            <li>
+        <ul id="slider" class="slider-list">
+            <li class="slider-item">
                  <img src="/assets/ABOUT US.jpg">
                 <article class="slider-info">
                     <h1>WE WORK FROM THE HEART</h1>
                     <p>We define the quality of our work, commitment, transparency and efficiency. </p>
-                    <button>About us</button>
+                    <button onclick="redirectAboutUs()">About us</button>
                 </article>
             </li>
-            <li>
+            <li class="slider-item">
                 <img src="/assets/OUR SERVICE.jpg">
                 <article class="slider-info">
                     <h1>AND WE DO IT WELL</h1>
                     <p>We have experience with cleaning and disingfecting a wide variety commercial facilities across several industries</p>
-                    <button>Our services</button>
+                    <button onclick="redirectOurService()">Our services</button>
                 </article>
             </li>
-            <li>
+            <li class="slider-item">
                 <img src="/assets/MORE INFO.jpg">
                 <article class="slider-info">
                     <h1>HOSPITALITY CLEANING SERVICES</h1>
                     <p>Specialists in service processes in the field of hotel cleaning, our dedicated and highly trained staff makes the difference</p>
-                    <button>More info</button>
+                    <button onclick="redirectMoreInfo()">More info</button>
                 </article>
             </li>
         </ul>
         <div class="buttons">
-            <i class="bi bi-chevron-compact-left" id="left"></i>
-            <i class="bi bi-chevron-compact-right" id="right"></i>
+            <i class="bi bi-chevron-compact-left" id="left" onclick="prevSlide()"></i>
+            <i class="bi bi-chevron-compact-right" id="right" onclick="nextSlide()"></i>
         </div>    
     </section>
     <section class="media-social">
@@ -73,48 +74,60 @@
     </section>
     <section class="targets-service">
         <h2>WE COVER ALL YOUR CLEANING NEEDS</h2>
-        <article class="target">
-            <picture class="target-img"><img src="./assets/2215.jpg"></picture>
-            <article class="info-targets">
-                <h3>HOSPITALITY CLEANING SERVICES</h3>
-                <p>We Care Master Service has spent several years perfecting our service processes in the area of hospitality cleaning.</p>
+        <a href="/service/hospital-service.html">
+            <article class="target">
+                <picture class="target-img"><img src="./assets/2215.jpg"></picture>
+                <article class="info-targets">
+                    <h3>HOSPITALITY CLEANING SERVICES</h3>
+                    <p>We Care Master Service has spent several years perfecting our service processes in the area of hospitality cleaning.</p>
+                </article>
             </article>
-        </article>
-        <article class="target">
-            <picture class="target-img"><img src="./assets/1314.jpg"></picture>
-            <article class="info-targets">
-                <h3>CLEANING SERVICE</h3>
-                <p>We have excellent, commercial, housekeeping, Janitorial and general cleaning services that will meet your expectations.</p>
+        </a>
+        <a href="/service/cleaning-service.html">
+            <article class="target">
+                <picture class="target-img"><img src="./assets/1314.jpg"></picture>
+                <article class="info-targets">
+                    <h3>CLEANING SERVICE</h3>
+                    <p>We have excellent, commercial, housekeeping, Janitorial and general cleaning services that will meet your expectations.</p>
+                </article>
             </article>
-        </article>
-        <article class="target">
-            <picture class="target-img"><img src="./assets/35886.jpg"></picture>
-            <article class="info-targets">
-                <h3>INDUSTRIAL CLEANING</h3>
-                <p>At We Care Master Service we know that industrial and manufacturing facilities have very specific cleaning requirements and needs.</p>
+        </a>
+        <a href="industrial-cleaning.html">
+            <article class="target">
+                <picture class="target-img"><img src="./assets/35886.jpg"></picture>
+                <article class="info-targets">
+                    <h3>INDUSTRIAL CLEANING</h3>
+                    <p>At We Care Master Service we know that industrial and manufacturing facilities have very specific cleaning requirements and needs.</p>
+                </article>
             </article>
-        </article>
-        <article class="target">
-            <picture class="target-img"><img src="./assets/2008.i201.039.social distancing isometric.jpg"></picture>
-            <article class="info-targets">
-                <h3>COVID-19 PANDEMIC RESPONSE</h3>
-                <p>We Care Master Service is prepared to sanitize commercial facilities dealing with COVID-19 presumptive positive cases.</p>
+        </a>
+        <a href="/service/covid-service.html">
+            <article class="target">
+                <picture class="target-img"><img src="./assets/2008.i201.039.social distancing isometric.jpg"></picture>
+                <article class="info-targets">
+                    <h3>COVID-19 PANDEMIC RESPONSE</h3>
+                    <p>We Care Master Service is prepared to sanitize commercial facilities dealing with COVID-19 presumptive positive cases.</p>
+                </article>
             </article>
-        </article>
-        <article class="target">
-            <picture class="target-img"><img src="./assets/35882.jpg"></picture>
-            <article class="info-targets">
-                <h3>CORPORATE JANITORIAL</h3>
-                <p>Whether you have a corporate headquarters, a building, or a large office complex, we have all your professional cleaning needs covered.</p>
+        </a>
+        <a href="/service/corporate-service.html">
+            <article class="target">
+                <picture class="target-img"><img src="./assets/35882.jpg"></picture>
+                <article class="info-targets">
+                    <h3>CORPORATE JANITORIAL</h3>
+                    <p>Whether you have a corporate headquarters, a building, or a large office complex, we have all your professional cleaning needs covered.</p>
+                </article>
             </article>
-        </article>
-        <article class="target">
-            <picture class="target-img"><img src="./assets/1315.jpg"></picture>
-            <article class="info-targets">
-                <h3>HEALTHCARE ENVIRONMENTAL SERVICES</h3>
-                <p>A professional clean has become essential for the operation of any business, and nowhere is that more true than</p>
+        </a>
+        <a href="/service/HEALTHCARE-service.html">
+            <article class="target">
+                <picture class="target-img"><img src="./assets/1315.jpg"></picture>
+                <article class="info-targets">
+                    <h3>HEALTHCARE ENVIRONMENTAL SERVICES</h3>
+                    <p>A professional clean has become essential for the operation of any business, and nowhere is that more true than</p>
+                </article>
             </article>
-        </article>
+        </a>
     </section>
     <section class="master-service">
         <article class="image-master">
@@ -125,82 +138,81 @@
             <p>When  talking about the cleaning industy, the possibilities are infinite, there is nothing that can not be cleaned, the same with sercives and products</p>
             
             <p style="font-size: 1.2em;">WE can go from housekeeping to commercial cleaning, we can go from carpet shampoo to kitchen deep cleaning, we basically cover everything</p>
-            <button>Master service</button>
+            <button onclick="redirectMasterService()">Master service</button>
         </article>
     </section>
     <section class="request">
         <h1>REQUEST A CAL FROM OUR EXPERT STAFF</h1>
         <article class="forms-user">
             <p>Request a call, send us your details and one of our expert advisors will contact with you shortly</p>
-            <form action="">
+            <form action="https://formsubmit.co/ardilabernal5@gmail.com" method="post">
                 <article class="user">
-                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Name" name="name">
                 </article>
                 <article class="user">
-                    <input type="number" placeholder="Phone">
+                    <input type="text" placeholder="Phone" name="phone">
                 </article>
                 <article class="email">
-                    <input type="email" placeholder="Email address">
+                    <input type="email" placeholder="Email address" name="email">
                 </article>
+                <button type="submit" value="enviar">Send</button>
             </form>
-            <button type="submit">Send</button>
-            <article class="text">
-                <label>5 + 1 = </label>
-                <input type="number">
-            </article>
         </article>
     </section>
     <section class="news">
         <h1>LATEST NEWS</h1>
-        <article class="news-latest">
-            <img src="assets/everdrop-gmbh-SqOMDOQb3ws-unsplash.jpg">
-            <div class="etiqueta">
-                <i class="bi bi-tag-fill"></i>
-                <p>DEEP CLEANING</p>
-            </div>
-            <h2>WHAT IS A DEEP CLEANING SERVICE?</h2>
-            <div class="wcms">
-                <i class="bi bi-person"></i>
-                <p>WCMS</p>
-            </div>
-            <p>What is a deep cleaning service and how is it done? How long has it been since you did a deep cleaning? And when we...</p>
-            <button> READ MORE <i class="bi bi-chevron-compact-right"></i></button>
-        </article>
-        <article class="news-latest">
-            <img src="assets/nino-maghradze-BUXdQh53eis-unsplash.jpg">
-            <div class="etiqueta">
-                <i class="bi bi-tag-fill"></i>
-                <p>CLEANING</p>
-            </div>
-            <h2>WHAT IS DISINFECTANT MIST FOGGING?</h2>
-            <div class="wcms">
-                <i class="bi bi-person"></i>
-                <p>WCMS</p>
-            </div>
-            <p>What is disinfectant mist fogging? Have you ever heards of disinfectant fog misting? Disinfectant fog misting is a very... </p>
-            <button> READ MORE <i class="bi bi-chevron-compact-right"></i></button>
-        </article>
-        <article class="news-latest">
-            <img src="assets/jeshoots-com-__ZMnefoI3k-unsplash.jpg">
-            <div class="etiqueta">
-                <i class="bi bi-tag-fill"></i>
-                <p>GREEN CLEANING</p>
-            </div>
-            <h2>WHAT IS GREEN CLAENING AND HOW IS IT DONE?</h2>
-            <div class="wcms">
-                <i class="bi bi-person"></i>
-                <p>WCMS</p>
-            </div>
-            <p>What is green cleaning, and how is it done? Green cleaning, a way to clean up your surroindings and the environment...</p>
-            <button> READ MORE <i class="bi bi-chevron-compact-right"></i></button>
-        </article>
+        <a href="/news/deepcleaning.html">
+            <article class="news-latest">
+                <img src="assets/everdrop-gmbh-SqOMDOQb3ws-unsplash.jpg">
+                <div class="etiqueta">
+                    <i class="bi bi-tag-fill"></i>
+                    <p>DEEP CLEANING</p>
+                </div>
+                <h2>WHAT IS A DEEP CLEANING SERVICE?</h2>
+                <div class="wcms">
+                    <i class="bi bi-person"></i>
+                    <p>WCMS</p>
+                </div>
+                <p>What is a deep cleaning service and how is it done? How long has it been since you did a deep cleaning? And when we...</p>
+            </article>
+        </a>
+        <a href="/news/DISINFECTANT.html">
+            <article class="news-latest">
+                <img src="assets/nino-maghradze-BUXdQh53eis-unsplash.jpg">
+                <div class="etiqueta">
+                    <i class="bi bi-tag-fill"></i>
+                    <p>CLEANING</p>
+                </div>
+                <h2>WHAT IS DISINFECTANT MIST FOGGING?</h2>
+                <div class="wcms">
+                    <i class="bi bi-person"></i>
+                    <p>WCMS</p>
+                </div>
+                <p>What is disinfectant mist fogging? Have you ever heards of disinfectant fog misting? Disinfectant fog misting is a very... </p>
+            </article>
+        </a>
+        <a href="/news/greencleaning.html">
+            <article class="news-latest">
+                <img src="assets/jeshoots-com-__ZMnefoI3k-unsplash.jpg">
+                <div class="etiqueta">
+                    <i class="bi bi-tag-fill"></i>
+                    <p>GREEN CLEANING</p>
+                </div>
+                <h2>WHAT IS GREEN CLAENING AND HOW IS IT DONE?</h2>
+                <div class="wcms">
+                    <i class="bi bi-person"></i>
+                    <p>WCMS</p>
+                </div>
+                <p>What is green cleaning, and how is it done? Green cleaning, a way to clean up your surroindings and the environment...</p>
+            </article>
+        </a>
     </section>
     <footer>
         <article class="footer-first">
             <article class="footers">
                 <article class="info-about">
                     <img src="">
-                    <p>We are a fast - growing with the combined experience to be recognized for delivering and ensuring results. <a href="">About us</a></p>
+                    <p>We are a fast - growing with the combined experience to be recognized for delivering and ensuring results. <a href="about-us.html">About us</a></p>
                     <div class="icon-social">
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
@@ -210,20 +222,10 @@
             <article class="footers">
                 <article class="links">
                     <h2>QUICK LINKS</h2>
-                    <a href="">Our service</a>
-                    <a href="">Contact</a>
-                    <a href="">Latest news</a>
-                    <a href="">Privacy policy</a>
-                </article>
-            </article>
-            <article class="footers">
-                <article class="suscribe">
-                    <h2>SUSCRIBE NOW</h2>
-                    <p>Suscribe to our Newsletter right now to be update </p>
-                    <form action="">
-                        <input type="email" placeholder="Email Address">
-                    </form>
-                    <button type="submit">Send</button>
+                    <a href="industrial-cleaning.html">Our service</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="blog.html">Latest news</a>
+                    <a href="privacy.html">Privacy policy</a>
                 </article>
             </article>
         </article>
@@ -232,5 +234,9 @@
             <p>Developed by</p>
         </article>
     </footer>
+    <script src="redirecction.js"></script>
+    <script src="slider.js"></script>
+    <script src="dropdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 

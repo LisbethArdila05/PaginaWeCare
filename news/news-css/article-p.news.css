@@ -1,0 +1,53 @@
+.article-p{
+    margin-top: 1%;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+.article-p-inicial label{
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1em;
+}
+.article-p-inicial span{
+    font-weight: 700;
+}
+.article-p-inicial p{
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+.article-sig{
+    margin-top: 2%;
+    height: 270vh;
+}
+.article-sig h2{
+    font-size: 1.4em;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.article-sig p{
+    font-size: 1.1em;
+    line-height: 1.7em; 
+}
+.article-sig ul{
+    margin-left: 5%;
+    list-style-type: disc;
+    color: #000;
+}
+.article-sig span{
+    font-weight: 700;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1em;
+}
+.article-sig label{
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1em
+}
+.article-sig li{
+    font-size: 1.1em;
+    line-height: 1.7em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

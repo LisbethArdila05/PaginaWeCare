@@ -1,7 +1,7 @@
 .media-social{
-    width: 93%;
-    height: 40px;
-    margin: 50px;
+    width: 90%;
+    height: 65px;
+    margin: 50px 65px;
 }
 .phone{
     display: inline-block;
@@ -10,7 +10,7 @@
 .phone i{
     float: left;
     font-size: 1.5em;
-    height: 5px;
+    height: 50px;
     margin-right: 20px;
 }
 .phone p{

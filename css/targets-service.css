@@ -1,8 +1,8 @@
 
 .targets-service{
-    height: 135vh;
-    width: 70%;
-    margin: 0 210px;
+    height: 140vh;
+    width: 80%;
+    margin: 0 10%;
 }
 .targets-service h2{
     text-align: center;
@@ -11,10 +11,12 @@
 .target{
     background-color: #D9D9D9;
     border-radius: 10px;
-    width: 20vw;
+    width: 22vw;
     height: 60vh;
     float: left;
     margin: 10px 20px;
+    cursor: pointer;
+    color: #000;
 }
 .target-img img{
     width: 100%;
@@ -24,6 +26,7 @@
     margin: 30px 75px;
 }
 .info-targets h3{
+    font-size: 1.2em;
     text-align: center;
     font-weight: bold;
 }

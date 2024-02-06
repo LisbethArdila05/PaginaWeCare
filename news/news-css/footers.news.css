@@ -71,16 +71,3 @@ footer{
     margin: 0 180px;
     font-weight: 700;
 }
-@media screen and (max-width: 800px) {
-    .info-about p,
-    .links h2,
-    .suscribe h2,
-    .suscribe p,
-    .suscribe input {
-      font-size: 0.8em; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
-    }
-  
-    .footer-first {
-      margin: 0 10px; /* Ajusta el margen para pantallas más pequeñas */
-    }
-  }

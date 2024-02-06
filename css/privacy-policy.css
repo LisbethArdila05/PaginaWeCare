@@ -1,0 +1,32 @@
+.privacy-policy{
+    width: 95%;
+    height: 200vh;
+    margin-left: 3%;
+}
+.privacy-policy h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    color: #6EB6FF;
+    top: 10%;
+}
+.privacy-policy span{
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 2em;
+
+}
+@media screen and (max-width: 800px) {
+    .privacy-policy {
+      width: 90%; /* Ajuste del ancho para pantallas más pequeñas */
+      margin-left: 5%; /* Ajuste del margen izquierdo para pantallas más pequeñas */
+    }
+  
+    .privacy-policy h1 {
+      font-size: 1.8em; /* Ajuste del tamaño de la fuente para pantallas más pequeñas */
+    }
+  
+    .privacy-policy span {
+      font-size: 1em; /* Ajuste del tamaño de la fuente para pantallas más pequeñas */
+    }
+  }

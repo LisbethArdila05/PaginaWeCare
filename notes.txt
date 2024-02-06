@@ -1,5 +1,0 @@
-----puntos en el <!-- ========== Start <ul class="dots">
-            <li></li>
-            <li class="active"></li>
-            <li></li>
-        </ul> ========== -->

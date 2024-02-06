@@ -1,0 +1,35 @@
+.article-new {
+    width: 100%;
+    height: 97vh;
+    background-image: url(../../assets/jeshoots-com-__ZMnefoI3k-unsplash.jpg);
+    background-size: cover;
+    background: #314755;  
+    background: -webkit-linear-gradient(to left, #26a0da, #314755); 
+    background: linear-gradient(to left, #26a0da, #314755);
+    overflow: hidden; 
+}
+.info-new{
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.info-new h1{
+    color: #fff;
+    margin: 250px 150px;
+    font-size: 2em;
+}
+.info-new label{
+    position: relative;
+    font-size: 1em;
+    color: #4990d8;
+    margin-left: 11%;
+    bottom: 250px;
+}
+.info-new p{
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    width: 75%;
+    bottom: 200px;
+    margin-left: 150px;
+}

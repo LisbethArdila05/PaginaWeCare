@@ -1,16 +1,20 @@
 .news{
     background-color: #F5F5F5;
     height: 110vh;
-    width: 90vw;
+    width: 92vw;
     margin: 0 4.5%;
+}
+.news a{
+    color: #000;
 }
 .news h1{
     text-align: center;
     font-size: 2em;
     margin: 20px 0;
+    color: #000;
 }
 .news-latest{
-    width: 25vw;
+    width: 26vw;
     height: 95vh;
     background-color: #fff;
     border-radius: 10px;
@@ -18,7 +22,7 @@
     margin: 0 30px;
 }
 .etiqueta{
-    width: 180px;
+    width: 70%;
     height: 40px;
     position: relative;
     background-color: #F5F5F5;
@@ -39,31 +43,33 @@
 .news-latest img{
     width: 22vw;
     height: 15vw;
-    margin: 20px 20px;
+    margin: 20px 25.5px;
     border-radius: 10px;
 }
 .news-latest h2{
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
     bottom: 155px;
 }
 .wcms{
     margin: 10px 130px;
+    display: flex;
 }
 .wcms i{
     font-size: 1.3em;
     color: #6EB6FF;
-    float: left;
 }
 .wcms p{
     color: #6EB6FF;
     font-weight: bold;
-    font-size: 1em; 
+    font-size: 1em;
+    left: 20px; 
 }
 .news-latest p{
     text-align: center;
-    margin: 0 30px;
-    font-size: 1.1em;
+    margin: 0 17px;
+    font-size: .9em;
+    width: 90%;
 }
 .news-latest button{
     margin: 25px 95px;

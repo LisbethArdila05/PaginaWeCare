@@ -36,3 +36,13 @@
     bottom: 50px;
     left: 35px;
 }
+@media screen and (max-width: 800px) {
+    .about {
+      margin: 30px auto; /* Ajuste del margen para pantallas más pequeñas */
+    }
+  
+    .about-title,
+    .reading {
+      width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
+    }
+  }

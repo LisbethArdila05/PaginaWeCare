@@ -1,22 +1,24 @@
 .slider-home{
+    z-index: 51;
     width: 100vw;
     max-width: 1250px;
     height: 550px;
-    margin: 50px auto ;
+    margin: 50px auto;
     border-radius: 20px;
-    overflow-x: hidden;
     overflow: hidden;
 }
-.slider-home ul{
+.slider-list{
     display: flex;
     padding: 0;
-    width: 300%;
-    animation: slide 30s infinite alternate ease-in-out;
+    margin: 0;
+    width: 100%; 
 }
 .slider-home li{
-    width: 100%;
-    list-style: none;
-    position: relative;
+    position: absolute;
+    top: 65px;
+    margin-left: 50px;
+    visibility: hidden;
+    transition: left 0.5s ease, visibility 0.5s ease;
 }
 .slider-home img{
     width: 100vw;
@@ -31,6 +33,7 @@
     padding: 0 250px;
     top: 140px;
     color: #fff;
+    z-index: 3;
 }
 .slider-info h1{
     font-size: 3em;
@@ -52,17 +55,8 @@
     border: none;
     outline: none;
 }
-@keyframes slide{
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-}
 .buttons{
+    z-index: 2;
     position: absolute; 
     top: 30%;
     left: 1%;
@@ -85,3 +79,8 @@
     font-weight: 300; 
     cursor: pointer;
 }
+@media screen and (max-width: 800px) {
+    .slider-info {
+      padding: 0 10px; /* Ajusta el padding para pantallas más pequeñas */
+    }
+  }

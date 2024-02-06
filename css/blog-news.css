@@ -1,49 +1,54 @@
 .blog-news{
-    height: 150vh;
-    width: 91vw;
-    margin: 70px auto ;
+    height: 160vh;
+    width: 95vw;
+    margin: 0 auto ;
 }
 .blog-firs{
-    width: 100%;
-    height: 70vh;
+    width: 100%; 
+    height: 77vh;
 }
 .new-one{
-    width: 45vw;
-    height: 70vh;
+    width: 50%;
+    height: 100%;
     float: left;
     cursor: pointer;
+    overflow-y: hidden;
 }
 .new-one img{
-    display: flex;
-    width: 45vw;
-    height: 70vh;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .tike-workplace{
     position: relative;
     background-color: #D9D9D9;
-    width: 10vw;
-    height: 6vh;
+    width: 12vw;
+    height: 4vh;
     border-radius: 6px;
     bottom: 420px;
-    left: 450px;
+    left: 400px;
+    color: #000;
 }
 .tike-workplace i{
     float: left;
     font-size: 1.3em;
+
 }
 .new-one h2{
     position: relative;
-    bottom: 180px;
+    bottom: 250px;
     left: 30px;
+    color: #000;
 }
 .tiket-person{
     position: relative;
     background-color: #D9D9D9;
-    width: 6vw;
-    height: 6vh;
+    width: 8vw;
+    height: 4vh;
     border-radius: 6px;
     bottom: 485px;
     left: 50px;
+    color: #000;
 }
 .tiket-person i{
     float: left;
@@ -51,38 +56,44 @@
 }
 .new-one p{
     position: relative;
-    bottom: 210px;
-    margin: 0 30px;
+    bottom: 250px;
+    margin-left: 30px;
     font-size: 1.2em;
     font-weight: 600;
+    color: #000;
 }
 .new-two{
-    width: 45vw;
-    height: 70vh;
+    width: 47vw;
+    height: 100%;
     float: right;
 }
+.new-two a{
+    text-decoration: none;
+    color: #000;
+}
 .cleaning-news{
-    width: 96%;
+    width: 100%;
     height: 22vh;
-    margin:10px;
+    margin:10px 5px;
     cursor: pointer;
 }
 .cleaning-news img{
     width: 13vw;
     height: 18vh;
-    margin: 10px;
+    margin: 10px 10px;
     border-radius: 5px;
     float: left;
 }
 .tikets-cleanig{
     width: 45vh;
-    height: 5vh;
+    height: 4vh;
     margin: 10px 250px;
 }
+/*Blog two*/
 .t-cli{
     position: relative;
     background-color: #D9D9D9;
-    width: 12vw;
+    width: 14vw;
     height: 4vh;
     border-radius: 6px; 
     float: left;
@@ -95,7 +106,7 @@
 .t-person{
     position: relative;
     background-color: #D9D9D9;
-    width: 6vw;
+    width: 5.5vw;
     height: 4vh;
     border-radius: 6px;
     float: right;
@@ -132,6 +143,10 @@
     margin: 10px 5px;
     width: 25vw;
     cursor: pointer;
+}
+.news-blogs-two .t-person{
+    width: 6vw;
+    height: 4vh;
 }
 
 
