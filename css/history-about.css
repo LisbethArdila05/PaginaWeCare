@@ -40,3 +40,10 @@
     width: 10vw;
     float: left;
 }
+@media screen and (max-width: 800px) {
+    .mission,
+    .vission {
+      width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
+      margin: 10px 0; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
+    }
+  }

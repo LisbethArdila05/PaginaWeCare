@@ -86,3 +86,25 @@
 .info-contac i{
     float: left;
 }
+@media screen and (max-width: 800px) {
+    .img-contact img {
+      width: 80vw;
+      margin: 20px auto;
+    }
+  
+    .form-contact {
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .info-contac {
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }

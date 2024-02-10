@@ -62,4 +62,13 @@ button{
     border: none;
     outline: none;
 }
-
+@media screen and (max-width: 800px) {
+    .request {
+      width: 95%; /* Ajuste del ancho para ocupar el 95% en pantallas más pequeñas */
+      margin: 35px auto; /* Centrado horizontal en pantallas más pequeñas */
+    }
+  
+    .button {
+      margin-top: 20px; /* Ajuste del margen superior en pantallas más pequeñas */
+    }
+  }

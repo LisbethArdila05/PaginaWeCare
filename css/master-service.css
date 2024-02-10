@@ -35,7 +35,12 @@
     outline: none;
     margin: 0 40px;
 }
-
+@media screen and (max-width: 800px) {
+    .info-master {
+      width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
+      margin-top: 10px; /* Ajuste del margen superior en pantallas más pequeñas */
+    }
+  }
 
 
 

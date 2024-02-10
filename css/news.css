@@ -15,7 +15,7 @@
 }
 .news-latest{
     width: 26vw;
-    height: 95vh;
+    height: 80vh;
     background-color: #fff;
     border-radius: 10px;
     float: left;
@@ -76,3 +76,9 @@
     color: #000;
     font-weight: none;
 }
+@media screen and (max-width: 800px) {
+    .news-latest {
+      width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
+      margin: 10px 0; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
+    }
+  }

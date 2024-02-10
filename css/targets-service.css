@@ -33,3 +33,8 @@
 .info-targets p{
     margin: 20px 20px;
 }
+@media screen and (max-width: 800px) {
+    .target {
+      width: 90%; /* Ajuste del ancho para ocupar el 90% en pantallas más pequeñas */
+    }
+  }

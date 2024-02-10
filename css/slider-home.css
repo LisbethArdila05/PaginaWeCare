@@ -55,32 +55,5 @@
     border: none;
     outline: none;
 }
-.buttons{
-    z-index: 2;
-    position: absolute; 
-    top: 30%;
-    left: 1%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between; 
-}
 
-.buttons #left{
-    padding: 50px 50px;
-    font-size: 100px;
-    color: #fff;
-    font-weight: 300;
-    cursor: pointer;
-}
-.buttons #right{
-    padding: 50px 50px;
-    font-size: 100px;
-    color: #fff;
-    font-weight: 300; 
-    cursor: pointer;
-}
-@media screen and (max-width: 800px) {
-    .slider-info {
-      padding: 0 10px; /* Ajusta el padding para pantallas más pequeñas */
-    }
-  }
+

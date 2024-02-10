@@ -22,3 +22,19 @@
     font-size: 1.5em;
     margin-right: 20px;
 }
+@media screen and (max-width: 800px) {
+    .media-social {
+      flex-direction: column; /* Cambio a dirección de columna en pantallas más pequeñas */
+      height: auto; /* Altura automática para adaptarse al contenido */
+      align-items: flex-start; /* Alineación al inicio en pantallas más pequeñas */
+    }
+  
+    .phone,
+    .social {
+      margin-top: 10px; /* Ajuste del margen superior entre elementos en pantallas más pequeñas */
+    }
+  
+    .phone p {
+      font-size: 0.9em; /* Ajuste del tamaño de fuente en pantallas más pequeñas */
+    }
+  }
