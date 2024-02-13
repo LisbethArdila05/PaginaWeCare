@@ -9,20 +9,20 @@
 <body>
     <header>
         <a href="" class="logo">We Care</a> 
-        <nav class="navigation">
+        <nav id="navigation">
             <a href="/index.html">Home</a>
             <a href="/about-us.html">About Us</a>
-            <div class="service-drop">
-                <label for="">Service <i class="bi bi-caret-down-fill"></i></label>
-                    <div class="service-a">
-                        <a href="/service/hospital-service.html">Hospital cleaning</a>
+            <div class="dropdown">
+                <button class="dropbtn">Service</button>
+                <div class="dropdown-content">
+                    <a href="/service/hospital-service.html">Hospital cleaning</a>
                         <a href="/service/cleaning-service.html">Cleaning service</a>
                         <a href="/service/covid-service.html">Covid-19</a>
                         <a href="/service/office-service.html">Office building</a>
                         <a href="/service/corporate-service.html">Corporate janitorial</a>
                         <a href="/service/educational-service.html">Educational cleaning</a>
                         <a href="/service/HEALTHCARE-service.html">Healthcare environmenetal</a>
-                    </div>
+                </div>
             </div>
             <a href="/blog.html">Blog</a>
             <a href="/contact.html">Contact</a>
@@ -165,22 +165,18 @@
         <h1>REQUEST A CAL FROM OUR EXPERT STAFF</h1>
         <article class="forms-user">
             <p>Request a call, send us your details and one of our expert advisors will contact with you shortly</p>
-            <form action="">
+            <form action="https://formsubmit.co/ardilabernal5@gmail.com" method="post">
                 <article class="user">
-                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Name" name="name">
                 </article>
                 <article class="user">
-                    <input type="number" placeholder="Phone">
+                    <input type="number" placeholder="Phone" name="phone">
                 </article>
                 <article class="email">
-                    <input type="email" placeholder="Email address">
+                    <input type="email" placeholder="Email address" name="email">
                 </article>
+                <button type="submit" value="enviar">Send</button>
             </form>
-            <button type="submit">Send</button>
-            <article class="text">
-                <label>5 + 1 = </label>
-                <input type="number">
-            </article>
         </article>
     </section>
     <footer>
