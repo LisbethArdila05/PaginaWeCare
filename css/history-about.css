@@ -41,6 +41,17 @@
     float: left;
 }
 @media screen and (max-width: 800px) {
+    .History{
+        width: 100%;
+        height: auto;
+        margin-top: -250px;
+    }
+    .mission img,
+    .vission img{
+        width: 60%;
+        margin: 3% 20%;
+        float: none;
+    }
     .mission,
     .vission {
       width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */

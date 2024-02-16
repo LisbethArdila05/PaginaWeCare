@@ -14,6 +14,7 @@
     margin: 10px 0;
 }
 .about-title img{
+    display: block;
     background-size: cover;
     border-radius: 6px;
     height: 91vh;
@@ -40,11 +41,27 @@
 }
 @media screen and (max-width: 800px) {
     .about {
-      margin: 30px auto; /* Ajuste del margen para pantallas más pequeñas */
+        height: auto;
+        width: 100%;
+        margin: 0 auto; /* Ajuste del margen para pantallas más pequeñas */
     }
-  
     .about-title,
     .reading {
       width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
+    }
+    .about-title h2{
+        margin-right: 25%;
+    }
+    .about-title img{
+        display: none;
+    }
+    .reading{
+        margin: -950px auto;
+        height: auto;
+        background-color: #fff;
+    }
+    .reading p{
+        font-size: 1em;
+        margin-bottom: 10%;
     }
   }

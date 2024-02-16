@@ -9,24 +9,27 @@
 .title-img img{
     display: flex;
     width: 91vw;
-    height: 70vh;
+    height: 70vh; 
     border-radius: 20px;
+    filter: brightness(0.5);
 }
+
 .title-img h1{
     position: relative;
     bottom: 250px;
     left: 950px;
     font-size: 2em;
     font-weight: 700;
+    color: #fff;
 }
 @media screen and (max-width: 800px) {
     .initial-title {
+      height: auto;
       width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
-      margin: 20px 0; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
+      margin: 25% 5%; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
     }
-  
     .title-img h1 {
-      bottom: 0; /* Cambiado de 250px a 0 para que el texto no se desplace en pantallas más pequeñas */
-      left: 0; /* Cambiado de 950px a 0 para que el texto no se desplace en pantallas más pequeñas */
+      position: relative;
+      left: 30%;
     }
   }

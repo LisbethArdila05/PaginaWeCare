@@ -32,6 +32,7 @@
     .phone,
     .social {
       margin-top: 10px; /* Ajuste del margen superior entre elementos en pantallas más pequeñas */
+      margin-right: 70px;
     }
   
     .phone p {

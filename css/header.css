@@ -4,6 +4,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 13vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +19,6 @@ header .logo{
     text-decoration: none;
 }
 #navigation{
-
   position: relative; 
   width: 60%; 
   height: 6vh;
@@ -39,7 +39,7 @@ header .logo{
 #navigation a:before{
     content: '';
     position: absolute;
-    background: black;
+    background: #6EB6FF;
     width: 0;
     height: 3px;
     bottom: 0;
@@ -48,23 +48,6 @@ header .logo{
 }
 #navigation a:hover:before{
     width: 100%;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-  width: 30%;
-  bottom: 98%;
-  font-weight: normal;
-}
-
-.dropbtn {
-  color: #000;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  background: transparent;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -75,58 +58,19 @@ header .logo{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 70;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
-  
+  display: block; 
 }
-
 .dropdown-content a:hover {
   background-color: #ddd;
- 
-}
-
-.show {
-  display: block;
 }
 @media screen and (max-width: 800px) {
-  header {
-    padding: 15px 20px; /* Ajusta el padding para pantallas más pequeñas */
-  }
-
-  #navigation {
-    width: 100%; /* El menú ocupa el 100% del ancho en pantallas más pequeñas */
-    height: auto; /* Ajusta la altura automáticamente */
-    top: 0; /* Alinea el menú en la parte superior */
-  }
-
-  #navigation a {
-    margin-left: 10px; /* Ajusta el margen entre elementos del menú */
-  }
-
-  .dropdown {
-    width: 100%; /* El ancho del dropdown es el 100% en pantallas más pequeñas */
+  header{
+    width: 100%;
+    margin-bottom: 10% ;
   }
 }
 
-/* Estilos para el resto del CSS (fuera de la media consulta) */
-header .logo {
-  color: #6EB6FF;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-#navigation {
-  position: relative;
-  width: 60%;
-  height: 6vh;
-  overflow-y: hidden;
-  top: 10px;
-}
-
-/* ... Otros estilos ... */

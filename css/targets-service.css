@@ -17,6 +17,11 @@
     margin: 10px 20px;
     cursor: pointer;
     color: #000;
+    transition: all 400ms ease;
+}
+.target:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
 }
 .target-img img{
     width: 100%;
@@ -34,7 +39,22 @@
     margin: 20px 20px;
 }
 @media screen and (max-width: 800px) {
-    .target {
-      width: 90%; /* Ajuste del ancho para ocupar el 90% en pantallas más pequeñas */
+    .targets-service{
+        height: auto;
+    }
+    .targets-service h2{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .target{
+        height: auto;
+        width: 90%;
+        margin-right: auto;
+    }
+    .info-targets h3{
+        font-size: 1em;
+    }
+    .info-targets p{
+        font-size: .8em;
     }
   }

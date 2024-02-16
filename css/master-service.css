@@ -36,6 +36,13 @@
     margin: 0 40px;
 }
 @media screen and (max-width: 800px) {
+    .master-service{
+        height: auto;
+    }
+    .image-master img{
+        width: 60%;
+        height: 90%;
+    }
     .info-master {
       width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
       margin-top: 10px; /* Ajuste del margen superior en pantallas más pequeñas */
