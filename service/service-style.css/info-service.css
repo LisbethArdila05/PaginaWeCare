@@ -12,7 +12,7 @@
 }
 .img-info img{
     height: 75vh;
-    width: 40%;
+    width: 80%;
     border-radius: 10px;
     float: right;
     margin-right: 70px;
@@ -33,4 +33,17 @@
     width: 92%;
     margin-top: 2%;
     margin-left: 2.5%;
+}
+@media screen and (max-width: 800px) {
+    .information-service{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    } 
+    .img-info img{
+        display: none;
+    }
+    .parrafo-info{
+        width: 85%;
+    }
 }

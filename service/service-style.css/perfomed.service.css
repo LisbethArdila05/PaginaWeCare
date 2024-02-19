@@ -29,3 +29,14 @@
     width: 70%;
     font-size: 1.1em;
 }
+@media screen and (max-width: 800px){
+    .perfomed-daily{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .perfomed-firs li{
+        margin-top: 10px;
+    }
+
+}

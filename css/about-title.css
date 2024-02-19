@@ -1,11 +1,11 @@
 .about{
     width: 95vw;
-    height: 120vh;
+    height: 125vh;
     margin: 70px auto ;
 }
 .about-title{
     width: 43vw;
-    height: 100vh;
+    height: 105vh;
     float: left;
     margin: 50px;
 }
@@ -18,7 +18,7 @@
     background-size: cover;
     border-radius: 6px;
     height: 91vh;
-    width: 40vw;
+    width: 45vw;
 }
 .reading{
     overflow: hidden;

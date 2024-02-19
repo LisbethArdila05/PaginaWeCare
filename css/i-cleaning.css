@@ -21,10 +21,10 @@
 @media screen and (max-width: 800px) {
     .lec-industrial {
       width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
-      margin: 10px 0; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
+      margin: 0 0; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
     }
   
     .img-industrial img {
-      margin-top: 20px; /* Ajuste del margen superior en pantallas más pequeñas */
+      display: none;
     }
   }

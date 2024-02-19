@@ -8,3 +8,8 @@
     width: 95%;
     margin-left: 2%;
 }
+@media screen and (max-width: 800px){
+    .covid-service{
+        height: auto;
+    }
+}

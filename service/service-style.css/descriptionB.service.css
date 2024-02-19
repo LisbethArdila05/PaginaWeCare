@@ -1,6 +1,6 @@
 .description-benefits{
     width: 85%;
-    height: 75vh;
+    height: 85vh;
     margin-left: 7.5%;
     margin-top: 4.5%;
 }
@@ -45,4 +45,17 @@
     margin-left: 5%;
     width: 90%;
     line-height: 3vh;
+}
+@media screen and (max-width: 800px){
+    .description-benefits{
+        width: 100%;
+        height: auto;
+        margin: 70% auto;
+    }
+    .benefic-left-properties h3{
+        font-size: 1em;
+    }
+    .benefic-right-properties h3{
+        font-size: 1em;
+    }
 }

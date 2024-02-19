@@ -1,70 +1,8 @@
-header {
-    z-index: 999;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 60px;
-    transition: 0.5s ease;
+.navbar-light{
+  background-color: #fff;
+  width: 100%;
 }
-header .logo{
-    color: #6EB6FF;
-    font-size: 1.5em;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
+.container-fluid{
+  background-color: #fff;
+  width: 100%;
 }
-header .navigation{
-    position: relative;      
-}
-.navigation a{
-    position: relative;
-    color: black;
-    font-size: 1em;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 30px;
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-.navigation a:before{
-    content: '';
-    position: absolute;
-    background: black;
-    width: 0;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s ease;
-}
-.navigation a:hover:before{
-    width: 100%;
-}
-.service-drop {
-    display: inline-block;
-    position: relative;
-    left: 20px;
-  }
-  .service-a {
-    display: none;
-    position: absolute;
-    width: 150px;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-  }
-  .service-drop:hover .service-a {
-    display: block;
-  }
-  .service-a a {
-    display: block;
-    color: #000000;
-    padding: 5px;
-    text-decoration: none;
-  }
-  .dropdown-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
-  }

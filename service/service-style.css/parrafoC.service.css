@@ -9,5 +9,13 @@
 }
 .parrafo-cleaning h3{
     top: 2%;
-    font-size: 1.3em;
+    font-size: 1.2em;
+}
+@media screen and (max-width: 800px){
+    .parrafo-cleaning{
+        height: auto;
+    }
+    .parrafo-cleaning h3{
+        margin-top: 10%;
+    }
 }
