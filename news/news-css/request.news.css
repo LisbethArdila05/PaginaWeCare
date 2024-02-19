@@ -36,20 +36,6 @@
     border-radius: 10px;
     border: none;
 }
-.text{
-    display: flex;
-    position: relative;
-    width: 10vw;
-    top: -35px;
-    margin-left: 300px;
-}
-.text input{
-    width: 2vw;
-    height: 4vh;
-    background-color: #D9D9D9;
-    border-radius: 5px;
-    border: none;
-}
 button{
     margin: 50px 727px 0 0;
     width: 150px;
@@ -62,4 +48,27 @@ button{
     border: none;
     outline: none;
 }
-
+@media screen and (max-width: 800px) {
+    .request {
+        height: auto;
+        width: 95%; /* Ajuste del ancho para ocupar el 95% en pantallas más pequeñas */
+        margin: 35px auto; /* Centrado horizontal en pantallas más pequeñas */
+    }
+    .request h1{
+        font-size: 1.3em;
+    }
+    .phone{
+        margin-top: -1%;
+    }
+    .user input{
+        width: 76vw;
+        float: none;
+    }
+    .email input{
+        width: 80%;
+    }
+    button {
+      margin: 30px 5px; /* Ajuste del margen superior en pantallas más pequeñas */
+      width: 60vw;
+    }
+  }

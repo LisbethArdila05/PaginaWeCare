@@ -68,7 +68,7 @@ button{
         width: 80%;
     }
     button {
-      margin: 20px 5px; /* Ajuste del margen superior en pantallas más pequeñas */
+      margin: 30px 5px; /* Ajuste del margen superior en pantallas más pequeñas */
       width: 60vw;
     }
   }

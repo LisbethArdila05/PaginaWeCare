@@ -3,7 +3,7 @@
     height: 97vh;
     background-image: url(../../assets/jeshoots-com-__ZMnefoI3k-unsplash.jpg);
     background-size: cover;
-    background: #314755;  
+    background: hwb(203 19% 67%);  
     background: -webkit-linear-gradient(to left, #26a0da, #314755); 
     background: linear-gradient(to left, #26a0da, #314755);
     overflow: hidden; 
@@ -32,4 +32,25 @@
     width: 75%;
     bottom: 200px;
     margin-left: 150px;
+}
+@media screen and (max-width: 800px){
+    .article-new{
+        width: 100%;
+    }
+    .info-new{
+        height: 85vh;
+    }
+    .info-new h1{
+        width: 100%;
+        margin-left: 2px;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .info-new label{
+        margin-left: 120px;
+    }
+    .info-new p{
+        font-size: 1em;
+        margin-left: 60px;
+    }
 }

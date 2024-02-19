@@ -1,12 +1,12 @@
 .information-service{
     width: 85%;
-    height: 80vh;
+    height: auto;
     margin-left: 7.5%;
 }
 .parrafo-info{
     width: 40%;
     line-height: 2em;
-    height: 87%;
+    height: auto;
     float: left;
     margin: 30px;
 }

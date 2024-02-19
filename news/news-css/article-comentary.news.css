@@ -45,3 +45,22 @@
     background-color: #7daec5;
     font-size: 1.1em;
 }
+@media screen and (max-width: 800px){
+    .article-comentary{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .comentary textarea{
+        height: 10vh;
+    }
+    .comentary input{
+        width: 90vw;
+        margin-top: 30px;
+
+    }.comentary .email{
+        margin-top: 10px;
+    }
+    .comentary button{
+        width: 90%;
+    }
+}
