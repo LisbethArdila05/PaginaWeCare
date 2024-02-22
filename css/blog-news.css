@@ -12,7 +12,7 @@
     height: 100%;
     float: left;
     cursor: pointer;
-    overflow-y: hidden;
+    overflow: hidden;
     transition: all 400ms ease;
 }
 .new-one:hover{

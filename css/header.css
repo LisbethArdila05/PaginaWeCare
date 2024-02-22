@@ -1,6 +1,39 @@
-.navbar-light{
+.navbar{
+    z-index: 999;
+    width: 100%;
+    height: auto;
     background-color: #fff;
 }
 .container-fluid{
+    width: 90vw;
     background-color: #fff;
+}
+.navbar-brand{
+    color: #6EB6FF;
+    font-size: 1.7em;
+    font-weight: 600;   
+}
+.collapse .navbar-nav{
+    width: auto;
+    margin-left: 440px;
+}
+.nav-link {
+    color: #000;
+    font-weight: 500;
+}
+.nav-item .active{
+    color: #000;
+}
+.nav-link:hover{
+    color: #6EB6FF;
+}
+@media screen and (max-width: 800px){
+    .navbar-toggler
+    {
+        margin-right: 30px;
+        width: 20vh;
+    }
+    .navbar-collapse{
+        margin-left: -100%;
+    }
 }

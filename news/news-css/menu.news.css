@@ -1,0 +1,36 @@
+.navbar{
+    z-index: 999;
+    background: #304654;  
+    background: -webkit-linear-gradient(to left, #26a0da, #314755); 
+    background: linear-gradient(to left, #26a0da, #314755);
+    width: 100%;
+    height: auto;
+}
+.container-fluid{
+    width: 90vw;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 1.7em;   
+}
+.collapse .navbar-nav{
+    width: auto;
+    margin-left: 440px;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+.nav-item .active{
+    color: #fff;
+}
+@media screen and (max-width: 800px){
+    .navbar-toggler
+    {
+        margin-right: 30px;
+        width: 20vh;
+    }
+    .navbar-collapse{
+        margin-left: -60%;
+    }
+  }

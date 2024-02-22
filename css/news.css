@@ -83,11 +83,12 @@
 }
 @media screen and (max-width: 800px) { 
     .news{
+        margin-bottom: 400%;
         height: auto;
     }
     .news-latest {
         width: 95%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
-        margin: 15px 10px; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
+        margin: 15% 10px; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
         height: 50vh;
     }
     .news-latest img{

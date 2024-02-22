@@ -18,7 +18,7 @@
 }
 .article-sig{
     margin-top: 2%;
-    height: 270vh;
+    height: auto;
 }
 .article-sig h2{
     font-size: 1.4em;
@@ -41,9 +41,9 @@
     line-height: 1em;
 }
 .article-sig label{
-    font-size: 1.3em;
+    font-size: .9em;
     font-style: italic;
-    line-height: 1em
+    line-height: 1em;
 }
 .article-sig li{
     font-size: 1.1em;

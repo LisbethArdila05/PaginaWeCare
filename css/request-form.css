@@ -52,7 +52,7 @@ button{
     .request {
         height: auto;
         width: 95%; /* Ajuste del ancho para ocupar el 95% en pantallas más pequeñas */
-        margin: 35px auto; /* Centrado horizontal en pantallas más pequeñas */
+        margin: 0 auto; /* Centrado horizontal en pantallas más pequeñas */
     }
     .request h1{
         font-size: 1.3em;

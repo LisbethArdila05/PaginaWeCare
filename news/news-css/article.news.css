@@ -3,7 +3,7 @@
     height: 97vh;
     background-image: url(../../assets/jeshoots-com-__ZMnefoI3k-unsplash.jpg);
     background-size: cover;
-    background: hwb(203 19% 67%);  
+    background: #304654;  
     background: -webkit-linear-gradient(to left, #26a0da, #314755); 
     background: linear-gradient(to left, #26a0da, #314755);
     overflow: hidden; 

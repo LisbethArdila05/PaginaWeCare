@@ -15,7 +15,6 @@
     float: right;
     width: 40vw;
     height: 65vh;
-    margin-top: -35%;
 }
 .info-master h2{
     text-align: center;
@@ -44,8 +43,9 @@
         height: 90%;
     }
     .info-master {
-      width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
-      margin-top: 10px; /* Ajuste del margen superior en pantallas más pequeñas */
+        width: 100%; /* Ajuste del ancho para ocupar el 100% en pantallas más pequeñas */
+        margin-top: 10px; /* Ajuste del margen superior en pantallas más pequeñas */
+        margin-bottom: 180px;
     }
   }
 
