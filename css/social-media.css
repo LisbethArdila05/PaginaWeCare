@@ -22,6 +22,20 @@
     font-size: 1.5em;
     margin-right: 20px;
 }
+.social{
+    display: inline-block;
+    
+}
+.social i{
+    float: left;
+    font-size: 1.5em;
+    height: 50px;
+    margin-right: 20px;
+}
+.social p{
+    float: left;
+    font-size: 1em;
+}
 @media screen and (max-width: 800px) {
     .media-social {
       flex-direction: column; /* Cambio a dirección de columna en pantallas más pequeñas */
@@ -30,9 +44,21 @@
       width: 80vw;
       margin: 0 auto;
     }
-  
-  
     .phone p {
-      font-size: 0.9em; /* Ajuste del tamaño de fuente en pantallas más pequeñas */
+        margin-top: 5%;
+        font-size: 0.7em; /* Ajuste del tamaño de fuente en pantallas más pequeñas */
+    }
+    .social{
+        position: relative;
+        width: 50vw;
+        height: 3vh;
+        left: 20%;
+        bottom: 50px;
+    }
+    .social i{
+        display: none;
+    }
+    .social p{
+        font-size: .5em;
     }
   }
