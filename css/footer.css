@@ -19,10 +19,16 @@ footer{
     color: #fff;
 }
 .icon-social i{
-    margin: 0px 5px;
+    margin-left: 30px;
     font-size: 1.3em;
     color: #fff;
     cursor: pointer;
+}
+.icon-social p{
+    position: relative;
+    font-size: .8em;
+    margin-left: 60px;
+    top: -50px;
 }
 .links{
     margin: 0  80px;

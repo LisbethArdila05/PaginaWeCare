@@ -43,8 +43,9 @@
         height: auto; 
     }
     .targets-service h2{
+        margin-top: 50px;
         text-align: center;
-        font-size: 1.3em;
+        font-size: 1em;
     }
     .target{
         height: auto;

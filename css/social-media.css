@@ -42,7 +42,7 @@
       height: auto; /* Altura automática para adaptarse al contenido */
       align-items: flex-start; /* Alineación al inicio en pantallas más pequeñas */
       width: 80vw;
-      margin: 0 auto;
+      margin: -100px auto;
     }
     .phone p {
         margin-top: 5%;

@@ -43,7 +43,7 @@
     .about {
         height: auto;
         width: 100%;
-        margin: 0 auto; /* Ajuste del margen para pantallas más pequeñas */
+        margin: 250px auto; /* Ajuste del margen para pantallas más pequeñas */
     }
     .about-title,
     .reading {
