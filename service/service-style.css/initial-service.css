@@ -27,7 +27,9 @@
       margin: 15% 5%; /* Ajuste del margen superior e inferior en pantallas más pequeñas */
     }
     .title-img h1 {
+      text-align: center;
       position: relative;
-      left: 30%;
+      left: 1%;
+      font-size: 1.1em;
     }
   }
