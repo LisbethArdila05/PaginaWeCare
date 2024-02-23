@@ -43,6 +43,7 @@
       align-items: flex-start; /* Alineación al inicio en pantallas más pequeñas */
       width: 80vw;
       margin: -100px auto;
+      margin-bottom: 10%;
     }
     .phone p {
         margin-top: 5%;

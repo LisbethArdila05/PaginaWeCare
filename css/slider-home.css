@@ -43,6 +43,7 @@
 @media screen and (max-width: 800px){
     .slide{
         height: auto;
+        margin-bottom: 45%;
     }   
 }
 
